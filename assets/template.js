@@ -18,20 +18,6 @@ function leftSection(){
 
 function rightSection(){
     $('div.container').append(`<section class="right"></section>`);
-/*
-
-            $('section.right').empty();
-            for(let i = 0;i < setRightSection.game.length;i++){
-                $('section.right').append(`<li><span>${setRightSection.game.name[i]}</span><span>${setRightSection.game.value[i]}</span></li>`);
-            }
-
-
-            $('section.right')
-            .empty()
-            .append(`<h3>${setRightSection.about.title}</h3><p>${setRightSection.about.text}</p>`);
-            break;
-    }
-    */
 }
 
 function rightSectionHome(){

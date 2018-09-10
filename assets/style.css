@@ -3,10 +3,6 @@ html,body{
     width: 100%;
     margin: 0;
     padding: 0;
-<<<<<<< HEAD
-=======
-    background-image: url("http://ww2.sinaimg.cn/large/0060lm7Tly1fji5691db2j31hc0u0n5v.jpg");
->>>>>>> c9c6198f6b0fec6b72f3e975dc3f8227c986c9a0
 }
 h1,a{
     color: rgba(72,72,72,.8);
@@ -134,12 +130,7 @@ span.archives-date{
 
 @media only screen and (min-width: 770px) {
     html,body{
-<<<<<<< HEAD
         background-size: cover;
-=======
-        overflow: hidden;
-        background-size: fixed;
->>>>>>> c9c6198f6b0fec6b72f3e975dc3f8227c986c9a0
     }
     .active{
         font-size: 1.6em;

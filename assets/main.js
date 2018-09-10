@@ -2,8 +2,8 @@ import { setHitokoto } from "./hitokoto";
 import { header, leftSection, rightSection, rightSectionHome, rightSectionArchives,rightSectionGames,rightSectionAbout } from "./template";
 
 $(document).ready(function(){
-    setBackground();
     setTemplate();
+    setBackground();
     setHitokoto();
     changeRightSection();
 });

@@ -37,6 +37,7 @@ main{
     text-align: center;
     padding: 1.2em;
     background: rgba(66, 200, 244, .6);
+    /*background: rgba(255,125,155,.6);*/
 }
 .icon{
     margin-bottom: 1.2em;
@@ -45,6 +46,8 @@ main{
 .icon img{
     border: 6px solid #fff;
     border-radius: 100%;
+    max-width: 148px;
+    max-height: 148px;
 }
 
 nav li a{
@@ -77,6 +80,7 @@ nav li a{
     flex-direction: row;
     align-content: center;
     justify-content: center;
+    padding-bottom: 1.2em;
 }
 .items a{
     width: 32%;
@@ -102,8 +106,8 @@ span.archives-date{
     font-size: .8em;
 }
 .about-text{
-    margin-top: .6em;
-    margin-bottom: 4em;
+    margin: 2.6em;
+    padding-bottom: 1.2em;
 }
 
 #hitokoto{

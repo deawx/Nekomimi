@@ -3,6 +3,7 @@ import { setHeader,setLeftSection,setRightSection,setRightSectionHome,setRightSe
 function header(){
     const random = Math.ceil(Math.random() * setHeader.background.length - 1);
     const a = `url('${setHeader.background[random]}')`;
+    $('title').text(setHeader.title);
     $('body').css("background-image",a);
 }
 
@@ -23,7 +24,7 @@ function rightSection(){
 function rightSectionHome(){
     $('section.right').append(`<header class="title"><h2>${setRightSection.homeTitle}</h2></header>`).append(`<div class="items"></div>`);
     for(let i = 0;i < setRightSectionHome.length;i++){       
-        $('div.items').append(`<a href="${setRightSectionHome[i].link}"   target="_blank" id=""><i class="fa fa-3x fa-home"></i><p>${setRightSectionHome[i].value}</p></a>`);
+        $('div.items').append(`<a href="${setRightSectionHome[i].link}"   target="_blank" id=""><i class="fa-3x ${setRightSectionHome[i].icon}"></i><p>${setRightSectionHome[i].value}</p></a>`);
     }
 }
 

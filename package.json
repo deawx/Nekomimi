@@ -1,14 +1,14 @@
 {
   "name": "nekomimi",
-  "version": "1.0.3",
-  "description": "",
+  "version": "1.1.0",
+  "description": "一个ACG风的落地导航页",
   "main": "app.js",
   "scripts": {
     "start": "webpack & webpack-dev-server --env development",
     "build": "webpack --env production"
   },
   "author": "Miya",
-  "license": "ISC",
+  "license": "MIT",
   "open": {
     "type": true
   },

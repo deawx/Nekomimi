@@ -4,6 +4,7 @@ function header(){
     const random = Math.ceil(Math.random() * setHeader.background.length - 1);
     const a = `url('${setHeader.background[random]}')`;
     $('title').text(setHeader.title);
+    document.getElementsByTagName('link')[0].href = setHeader.avatar;
     $('body').css("background-image",a);
 }
 

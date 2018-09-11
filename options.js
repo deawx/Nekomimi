@@ -1,6 +1,8 @@
 var setHeader = {
+
     /** 设置标题,将显示在顶部标题栏处 */
     title: 'NekoMimi Demo',
+
     /**
      * 此处设置背景,每个图片之间用逗号隔开
      */
@@ -16,8 +18,10 @@ var setHeader = {
         'https://ws2.sinaimg.cn/large/0065BpO8gy1fuhnokeop1j31hc0u0too.jpg',
         'https://ws4.sinaimg.cn/large/007giGeVly1fuvsgpyiplj31hc0u0adj.jpg'
     ],
+
     /** 设置地址栏图像,大小为16×16 */
-    avatar: 'avatar.png'
+    avatar: 'assets/avatar.png'
+
 }
 
 var setLeftSection =  {

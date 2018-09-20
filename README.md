@@ -44,11 +44,13 @@ Demo 地址：[https://jingyi21.github.io/Nekomimi/]
 
 1. 请先确认计算机内已安装 `Node.js` 与 `npm` 
 
-2. 在 GitHub 中 `Clone` 这个项目，或 `Download Zip` 这个项目
-> git clone https://github.com/Jingyi21/Nekomimi.git
-> cd nekomimi
+2. 在 GitHub 中 `Clone` 这个项目，或 `Download Zip` 这个项目.或直接在终端中：
+> git clone https://github.com/Jingyi21/Nekomimi.git 
 
-3. 在命令行窗口中，定位到项目根目录，输入以下命令安装所需的依赖
+>cd nekomimi
+
+3. 在终端中，定位到项目根目录，输入以下命令安装所需的依赖
+
 > npm install
 
 4. 若需修改内部内容，请使用文本编辑器或 IDE 打开根目录的 `option.js` ，根据注释修改内容

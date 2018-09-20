@@ -1,6 +1,6 @@
 {
   "name": "nekomimi",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "一个ACG风的落地导航页",
   "main": "app.js",
   "scripts": {

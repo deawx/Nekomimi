@@ -1,4 +1,4 @@
-import { setHeader,setLeftSection,setRightSection,setRightSectionHome,setRightSectionArchives,setRightSectionGames } from '../options';
+import { setHeader,setLeftSection,setRightSection,setRightSectionHome,setRightSectionArchives,setRightSectionGames } from '../../options';
 
 function header(){
     const random = Math.ceil(Math.random() * setHeader.background.length - 1);
@@ -44,7 +44,7 @@ function rightSectionGames(){
 }
 
 function rightSectionAbout(){
-    $('section.right').append(`<header class="title"><h2>${setRightSection.about.title}</h2></header>`).append(`<p class="about-text">${setRightSection.about.text}</p>`);
+    $('section.right').append(`<header class="title"><h2>${setRightSection.aboutTitle}</h2></header>`).append(`<p class="about-text">${setRightSection.aboutText}</p>`);
 }
 
 export { header,leftSection,rightSection,rightSectionHome,rightSectionArchives,rightSectionGames,rightSectionAbout }

@@ -1,3 +1,4 @@
+import $ from 'jquery';
 import { setHitokoto } from "./hitokoto";
 import { header, leftSection, rightSection, rightSectionHome, rightSectionArchives,rightSectionGames,rightSectionAbout } from "./template";
 

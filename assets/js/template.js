@@ -1,3 +1,4 @@
+import $ from 'jquery';
 import { setHeader,setLeftSection,setRightSection,setRightSectionHome,setRightSectionArchives,setRightSectionGames } from '../../options';
 
 function header(){

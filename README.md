@@ -64,6 +64,10 @@ Demo 地址：[https://jingyi21.github.io/Nekomimi/]
 6. 如果想将本项目放置到服务器中，请在本地部署完毕后，将 `index.html` 、 `style.css` 、 `app.js` 三个文件放置到你的服务器或虚拟主机中，即可使用个人域名来访问
 
 ## 更新日志
+### v1.2.2
+
+- 将 font-awesome 与 animate.css 的 CDN 库更新为七牛云(可自行更改为 BootCDN )
+
 ### v1.2.0
 
 - 修改 `options.js` 里的部分位置,使其更加人性化

@@ -66,7 +66,7 @@ Demo 地址：[https://jingyi21.github.io/Nekomimi/]
 ## 更新日志
 ### v1.2.2
 
-- 将 font-awesome 与 animate.css 的 CDN 库更新为七牛云(可自行更改为 BootCDN )
+- 将 font-awesome 与 animate.css 的 CDN 库更新为七牛云(可自行更改为 BootCDN )
 
 ### v1.2.0
 

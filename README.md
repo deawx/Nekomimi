@@ -53,7 +53,7 @@ Demo 地址：[https://jingyi21.github.io/Nekomimi/]
 
 > npm install
 
-4. 若需修改内部内容，请使用文本编辑器或 IDE 打开根目录的 `option.js` ，根据注释修改内容
+4. 若需修改内部内容，请使用文本编辑器或 IDE 打开 `components/js/option.js` ，根据注释修改内容
 
 5. 修改完毕后使用以下命令打包
 
@@ -61,9 +61,15 @@ Demo 地址：[https://jingyi21.github.io/Nekomimi/]
 
 注：在本地服务器启动的情况下，所有修改都会重新部署并自动刷新浏览器
 
-6. 如果想将本项目放置到服务器中，请在本地部署完毕后，将 `index.html` 、 `style.css` 、 `app.js` 三个文件放置到你的服务器或虚拟主机中，即可使用个人域名来访问
+6. 如果想将本项目放置到服务器中，请在本地部署完毕后，将 `index.html` 与 `app.js` 两个文件放置到你的服务器或虚拟主机中，即可使用个人域名来访问
 
 ## 更新日志
+### v1.3.0
+
+- 大幅度调整文件存放地点,`assets` → `components`
+
+- 整合本地 CSS 与 JS 资源,并采用压缩 JS 的方式 ~~不然 200K 的文件 + 额外的两个库还真受不了~~
+
 ### v1.2.2
 
 - 将 font-awesome 与 animate.css 的 CDN 库更新为七牛云(可自行更改为 BootCDN )

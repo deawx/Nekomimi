@@ -28,28 +28,28 @@ function setTemplate(){
 }
 
 function changeRightSection(){
-    $('a#Home').click(function(){
+    $('a#Home').click(() => {
         $('section.right').empty();
         $('nav li a').removeClass('active');
         rightSectionHome();
         $('a#Home').addClass('active');
         $('section.right *').addClass('animated fadeIn');
     });
-    $('a#Archives').click(function(){
+    $('a#Archives').click(() => {
         $('section.right').empty();
         $('nav li a').removeClass('active');
         rightSectionArchives();
         $('a#Archives').addClass('active');
         $('section.right *').addClass('animated fadeIn');
     });
-    $('a#Game').click(function(){
+    $('a#Game').click(() => {
         $('section.right').empty();
         $('nav li a').removeClass('active');
         rightSectionGames();
         $('a#Game').addClass('active');
         $('section.right *').addClass('animated fadeIn');
     });
-    $('a#About').click(function(){
+    $('a#About').click(() => {
         $('section.right').empty();
         $('nav li a').removeClass('active');
         rightSectionAbout();

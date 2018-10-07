@@ -2,6 +2,8 @@ const webpack = require('webpack');
 const path = require('path');
 const OpenBrowserPlugin = require('open-browser-webpack-plugin');
 const uglify = require('uglifyjs-webpack-plugin');
+const ExtractTextPlugin = require('extract-text-webpack-plugin');
+const extractCSS = new ExtractTextPlugin('stylesheets/[name]-one.css');
 
 module.exports = {
     entry: './components/js/main.js',
@@ -28,21 +30,20 @@ module.exports = {
                 ]
             },
             {
-                test: /\.css$/ , 
-                loader: [
-                    'style-loader','css-loader'
-                ]
-            }
+                test: /\.css$/,
+                loader: "style-loader!css-loader"
+              },
         ]
     },
     devServer:{
+        port: 12450,
         historyApiFallback:true,
         hot:true,
         inline:true
     },
     plugins: [
-        new OpenBrowserPlugin({ url: 'http://localhost:8080' }),
+        new OpenBrowserPlugin({ url: 'http://localhost:12450' }),
         new webpack.HotModuleReplacementPlugin(),
-        new uglify()
-    ]
+        new uglify(),
+        ]
 }

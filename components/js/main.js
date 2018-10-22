@@ -23,9 +23,6 @@ function setTemplate(){
     rightSection();
     rightSectionHome();
     $('section.right *').addClass('animated fadeIn');
-    if(window.console){
-        console.log('\n %c Nekomimi v1.3.0 %c by Kannazuki Miya |  https://miya.moe ','color:#dcf2f8;background:#23b7e5;padding:5px 0;','color:#eee;background:rgba(252,248,227,.3);padding:5px 0;')
-    }
 }
 
 function changeRightSection(){

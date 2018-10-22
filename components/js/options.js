@@ -37,7 +37,7 @@ setLeftSection.icon = './components/img/avatar.png';
 setLeftSection.links = ['Home','Archives','Game','About'];
 
 /** Home 标题 */
-setRightSection.homeTitle = 'Miya Neko House';
+setRightSection.homeTitle = 'Yukaric fes';
 
 /**
  *  在这里可以更改 Home 展示页上的链接,默认为6个,内置 Demo 用链接,可随意修改
@@ -49,15 +49,15 @@ setRightSection.homeTitle = 'Miya Neko House';
 var setRightSectionHome = [
     {
         icon: 'fa fa-home',
-        link: 'https://shizu17.pw',
+        link: 'https://yukarin.me',
         value: 'Home'
     },{
         icon: 'fa fa-github',
-        link: 'https://github.com/jingyi21',
+        link: 'https://github.com/Miya-Yukarin',
         value: 'GitHub'
     },{
         icon: 'fa fa-terminal',
-        link: 'https://miya.moe',
+        link: 'https://blog.yukarin.me',
         value: 'Blog'
     },{
         icon: 'fa fa-envelope-o',
@@ -86,24 +86,24 @@ setRightSection.archivesTitle = 'Archives';
  */
 var setRightSectionArchives = [
     {
-        link: 'https://miya.moe/archives/19.html',
+        link: 'https://blog.yukarin.me/archives/16.html',
         value: '[萌化项目] 扁平ACG风落地页',
         date: '8102/9/10'
     },{
-        link: 'https://miya.moe/archives/50.html',
+        link: 'https://blog.yukarin.me/archives/19.html',
         value: 'TY-LandingPage:一个简单的落地导航页',
         date: '8102/9/9'
     },{
-        link: 'https://miya.moe/archives/30.html',
+        link: 'https://blog.yukarin.me/archives/17.html',
         value: '[魔改项目] 知乎PC网页版夜间模式',
         date: '8102/8/23'
     },{
-        link: 'https://miya.moe/archives/13.html',
-        value: '基于 Handsome 主题的多语言设置',
+        link: 'https://blog.yukarin.me/archives/4.html',
+        value: '幻想领域1.4.3修复版',
         date: '8102/8/7'
     },{
-        link: 'https://miya.moe/archives/44.html',
-        value: 'LandingPage:一个简单的落地导航页项目',
+        link: 'https://github.com/Miya-Yukarin/Ling-lib/tree/master/LandingPage%20v2.0',
+        value: '(已停止维护)LandingPage:一个简单的落地导航页项目',
         date: '8102/8/6'
     }];    
 

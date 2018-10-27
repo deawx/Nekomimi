@@ -1,7 +1,7 @@
 import $ from 'jquery';
 import { setHitokoto } from './hitokoto';
 import { header, leftSection, rightSection, rightSectionHome, rightSectionArchives,rightSectionGames,rightSectionAbout } from './template';
-import { css } from '../css/style.css';
+import '../css/style.css';
 
 
 $(document).ready(() => {

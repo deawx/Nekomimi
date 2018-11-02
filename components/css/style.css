@@ -23,7 +23,8 @@ nav li a{color:rgba(248,248,248,.8)}
 span.archives-date{font-size:.8em}
 .about-text{margin:2.6em;padding-bottom:1.2em;letter-spacing:1px}
 #hitokoto{text-align:center;color:rgba(248,248,248,.8);text-shadow:2px 2px 2px rgba(0,0,0,.4)}
-@media only screen and (min-width:770px){body,html{background-size:cover}
+@media only screen and (min-width:770px){
+body,html{background-size:cover}
 .active{font-size:1.6em}
 .size{font-size:3em}
 main{height:100vh}
@@ -37,7 +38,8 @@ nav li a{font-size:1.2em}
 .title{margin-top:2.4em}
 .items{margin-top:1.6em}
 }
-@media only screen and (max-width:770px){.size{font-size:2em}
+@media only screen and (max-width:770px){
+.size{font-size:2em}
 .container{flex-direction:column;margin:2.4em;width:96%}
 .left{border-radius:10px 10px 0 0}
 .icon{max-height:100px}
